@@ -14,8 +14,8 @@ O Delivery Control é um aplicativo para controle de entregas, permitindo que es
 
 ## Tecnologias Utilizadas
 
-- Frontend: React Native
-- Backend: Django
+- Frontend: React Native, Axios
+- Backend: Django, Django RestFramework, Djoser
 - Banco de Dados: PostgreSQL
 
 ## Como Contribuir
