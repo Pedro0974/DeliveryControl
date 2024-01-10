@@ -4,11 +4,9 @@ from django.db import models
 
 
 STATUS_CHOICES = [
-    ('CREDITO', 'Credito'),
-    ('DEBITO', 'Debito'),
-    ('DINHEIRO', 'Dinheiro'),
-    ('PIX', 'Pix'),
-    ('PAGAMENTO ONLINE', 'Pagamento Online')
+    ('A CAMINHO', 'A Caminho'),
+    ('CONCLUIDO', 'Concluido'),
+    ('CANCELADO', 'Cancelado'),
 ]
 
 
