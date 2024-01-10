@@ -21,7 +21,7 @@ class DeliveryFeeSerializer(serializers.ModelSerializer):
 
 
 class DeliverySerializer(serializers.ModelSerializer):
-    paymant_method_id = PaymentMethodSerializer()
+    payment_method_id = PaymentMethodSerializer()
     delivery_fee_id = DeliveryFeeSerializer()
 
     class Meta:
